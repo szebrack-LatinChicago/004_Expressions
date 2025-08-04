@@ -9,6 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
+// --tests ExpressionsTest.testExpressionsHomework()
 class ExpressionsTest {
     @Test void testExpressionsHomework() {
     	ByteArrayOutputStream outContent = new ByteArrayOutputStream();
