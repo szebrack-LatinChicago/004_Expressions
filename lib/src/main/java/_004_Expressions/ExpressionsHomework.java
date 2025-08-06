@@ -28,8 +28,8 @@ public class ExpressionsHomework {
 		int a = 5;
 		int b = a - 5;
 		
-		systemGrader.out.predict("A", null, a); // A) predict the value of a
-		systemGrader.out.predict("B", null, b); // B) predict the value of b
+		systemGrader.out.predict("A", 5, a); // A) predict the value of a
+		systemGrader.out.predict("B", 0, b); // B) predict the value of b
 		
 
 		//Section 2:math with decimals
@@ -54,10 +54,10 @@ public class ExpressionsHomework {
 		m = m + 1/3;
 		m = m + 1/3;
 		m = m + 1/3;
-		systemGrader.out.predict("M", null ,m);  //M
+		systemGrader.out.predict("M", 1 ,m);  //M
 		
 		double n =.1+.1+.1;
-		systemGrader.out.predict("N", null ,n);  //N
+		systemGrader.out.predict("N", .3 ,n);  //N
 		float o = (float) (.1+.1+.1);
 		systemGrader.out.predict("o", null ,o);  //N
 		
